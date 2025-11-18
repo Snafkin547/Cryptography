@@ -1,0 +1,3 @@
+[submodule "aes_module"]
+	path = aes_module
+	url = git@github.com:Snafkin547/AESModule.git
