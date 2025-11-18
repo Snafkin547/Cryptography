@@ -11,6 +11,12 @@ This module is an implementation of the DES (Data encryption standard) encryptio
 For detailed information and usage instructions, please visit <a href="https://github.com/Snafkin547/DESModule">the DES Module Directory</a>.
 
 
+<b>AES Module</b>
+
+The Advanced Encryption Standard (AES) is the globally adopted and most widely used symmetric-key encryption algorithm, succeeding the aging DES standard. Developed in the late 1990s by two Belgian cryptographers and selected by the National Institute of Standards and Technology (NIST) in 2001, AES is implemented as the Rijndael cipher. It operates on a block size of 128 bits and supports three distinct key lengths: 128, 192, and 256 bits, with security proportional to the key size. Due to its robustness, efficiency, and resistance to all known practical attacks, AES is the de facto standard for securing sensitive government, financial, and personal data worldwide.
+
+This module is an implementation of the AES (Advanced Encryption Standard) encryption and decryption processes, supporting various key lengths and modes of operation. For detailed information and usage instructions, please visit <a href="https://github.com/Snafkin547/AESModule">the AES Module Directory</a>.
+
 ## Code Formatting Standards
 My project uses Black, a Python code formatter, to ensure uniform formatting across our codebase. 
 Contributors are required to format their code using black . in the root directory before pushing to the repository. 
