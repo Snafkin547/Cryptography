@@ -3,9 +3,21 @@
 Welcome to the "Cryptography" repository!🕵️‍♂️<br> 
 This repository is dedicated to exploring and implementing various cryptographic algorithms and techniques. 
 
+<b>zk-Oracles</b>
+**zk-Oracles**
+
+[zk-Oracles](https://github.com/hicsail/zk-Oracles) is a project supported by **DARPA** focused on integrating **Zero-Knowledge Proof (ZKP)** technology within the **SIEVE IR0+ framework**. This repository contains a collection of four key modules, each designed to implement possible applications of ZKPs in various domains:
+
+* **[zk-NLP](https://github.com/hicsail/zk-NLP)**: Natural Language Processing with Zero-Knowledge Proofs.
+* **[zk-ApplePSI](https://github.com/hicsail/zk-ApplePSI)**: Apple Private Set Intersection (PSI) implementation using Zero-Knowledge Proofs.
+* **[zk-copyright](https://github.com/hicsail/zk-copyright)**: A demonstration of a copyright court case using Zero-Knowledge Proofs.
+* **[zk-DP](https://github.com/hicsail/zk-DP)**: Differential Privacy implementations on census data using Zero-Knowledge Proofs.
+
+Each module is a standalone project, published as a Docker image for ease of use and deployment.
+
 <b>DES Module</b>
 
-The Data Encryption Standard (DES), a prominent symmetric-key algorithm for electronic data encryption developed in the 1970s, was once a benchmark in digital security but has seen a decline due to newer cryptographic methods. In response to its vulnerabilities, notably its short key length, an enhanced version called Triple DES (3DES) was introduced, utilizing multiple DES keys in sequence to significantly bolster security. This advanced version has gained approval from the National Institute of Standards and Technology (NIST) and is incorporated in numerous cryptographic standards, maintaining its relevance as a secure option for protecting sensitive data, particularly in legacy systems.
+The **Data Encryption Standard (DES)**, a prominent symmetric-key algorithm for electronic data encryption developed in the 1970s, was once a benchmark in digital security but has seen a decline due to newer cryptographic methods. In response to its vulnerabilities, notably its short key length, an enhanced version called **Triple DES (3DES)** was introduced, utilizing multiple DES keys in sequence to significantly bolster security. This advanced version has gained approval from the **National Institute of Standards and Technology (NIST)** and is incorporated in numerous cryptographic standards, maintaining its relevance as a secure option for protecting sensitive data, particularly in legacy systems.
 
 This module is an implementation of the DES (Data encryption standard) encryption and decryption processes. 
 For detailed information and usage instructions, please visit <a href="https://github.com/Snafkin547/DESModule">the DES Module Directory</a>.
@@ -13,7 +25,7 @@ For detailed information and usage instructions, please visit <a href="https://g
 
 <b>AES Module</b>
 
-The Advanced Encryption Standard (AES) is the globally adopted and most widely used symmetric-key encryption algorithm, succeeding the aging DES standard. Developed in the late 1990s by two Belgian cryptographers and selected by the National Institute of Standards and Technology (NIST) in 2001, AES is implemented as the Rijndael cipher. It operates on a block size of 128 bits and supports three distinct key lengths: 128, 192, and 256 bits, with security proportional to the key size. Due to its robustness, efficiency, and resistance to all known practical attacks, AES is the de facto standard for securing sensitive government, financial, and personal data worldwide.
+The **Advanced Encryption Standard (AES)** is the globally adopted and most widely used symmetric-key encryption algorithm, succeeding the aging DES standard. Developed in the late 1990s by two Belgian cryptographers and selected by the **National Institute of Standards and Technology (NIST)** in 2001, AES is implemented as the Rijndael cipher. It operates on a block size of 128 bits and supports three distinct key lengths: 128, 192, and 256 bits, with security proportional to the key size. Due to its robustness, efficiency, and resistance to all known practical attacks, AES is the de facto standard for securing sensitive government, financial, and personal data worldwide.
 
 This module is an implementation of the AES (Advanced Encryption Standard) encryption and decryption processes, supporting various key lengths and modes of operation. For detailed information and usage instructions, please visit <a href="https://github.com/Snafkin547/AESModule">the AES Module Directory</a>.
 
